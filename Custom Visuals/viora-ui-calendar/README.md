@@ -48,10 +48,11 @@ That way users can:
 
 ## Screenshots
 
-![Screenshot 1](./Images/img%201.png)
+The screenshot files are available in the `Images/` folder:
 
-![Screenshot 2](./Images/img%202.png)
+- [Screenshot 1](./Images/img%201.png)
+- [Screenshot 2](./Images/img%202.png)
+- [Screenshot 3](./Images/img%203.png)
+- [Screenshot 4](./Images/img%204.png)
 
-![Screenshot 3](./Images/img%203.png)
-
-![Screenshot 4](./Images/img%204.png)
+Or open the folder directly: [Images/](./Images/)
