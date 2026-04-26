@@ -21,19 +21,30 @@ Although this visual is a date filter / calendar control, the package name keeps
 
 ## Why not AppSource?
 
-This visual is distributed here as a direct-import package rather than through Microsoft AppSource.
+This visual remains available here as a direct GitHub download because it still has important limitations for Power BI production use.
 
-Reasons:
+### Primary limitation
 
-- AppSource requires a full listing, certification, and ongoing support commitment.
-- This repo is meant for direct use, testing, and private distribution of custom visuals.
-- The current package is already available as a `.pbiviz` file, so submitting it to AppSource would add extra process overhead for something intended to be shared quickly.
+The visual must stay on the top layer in Power BI's selection pane. When the calendar is visible, it overlaps any visuals beneath it, even when it is collapsed. That overlay behavior can block underlying visuals, making it harder to select or filter them. For this reason, the visual is not ideal for reports where users need to interact with multiple visuals in the same area.
 
-If you want, the next step can be to prepare a proper AppSource submission package, but right now this repository keeps the visual simple and direct.
+### Additional limitation
+
+This package has had limited testing against real report data. That means the current version is better suited for experimentation, design exploration, and early feedback rather than being treated as a fully supported AppSource visual.
+
+### Roadmap context
+
+Microsoft is planning a native Power BI date filter / range selection visual later this year. Because of this roadmap and the current overlay limitation, the best path is to keep this package on GitHub as a preview and idea reference.
+
+That way users can:
+
+- test the behavior
+- see how it could fit in their reports
+- think about how they would use it
+- contribute feedback or improvements
 
 ## Documentation
 
-- Read the visual-specific guide: `USER_GUIDE.md`
+- Read the visual-specific guide: [`USER_GUIDE.md`](./USER_GUIDE.md)
 
 ## Screenshots
 

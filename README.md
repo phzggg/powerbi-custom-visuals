@@ -8,9 +8,11 @@ Each visual is stored in its own folder so the package, usage guide, screenshots
 
 Power BI visuals can be shared directly as `.pbiviz` files without requiring an AppSource listing. This repo is intended to keep those visuals small, easy to browse, and easy to import into Power BI Desktop.
 
-## Current visual
+## Visual folder structure
 
-- `Custom Visuals/viora-ui-calendar/` — Viora UI Calendar custom visual
+This repository stores custom visuals in self-contained folders. For the current package, see:
+
+- [`Custom Visuals/viora-ui-calendar/`](./Custom Visuals/viora-ui-calendar/)
 
 ## Why the name `viora-ui-calendar`
 
