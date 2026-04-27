@@ -10,9 +10,12 @@ Power BI visuals can be shared directly as `.pbiviz` files without requiring an 
 
 ## Visual folder structure
 
-This repository stores custom visuals in self-contained folders. One visual is available under:
+This repository stores custom visuals in a root folder called `Custom Visuals`.
 
-- [`Custom Visuals/Date Range Filter/`](./Custom Visuals/Date Range Filter/)
+Inside that folder, the current package is stored in:
+
+- `Custom Visuals/`
+  - `Date Range Filter/`
 
 ## Why the name `Viora UI`
 
