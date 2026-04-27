@@ -18,9 +18,7 @@ This repository stores custom visuals in self-contained folders. For the current
 
 In this repo, `Viora UI` works like a component brand prefix. You will see components referred to as `Viora UI` + a feature name, and that is my naming convention for package metadata and component branding.
 
-The current visual is presented here as `Date Range Filter`. I use `Viora UI` as the maker/brand part of the package name, while the actual component is the date range filter itself.
-
-This is why the folder is named `Date Range Filter` and not `Viora UI Calendar` in the repository structure. The package preserves the original `Viora UI` metadata from the source package, but the visual is the date filter component.
+The current visual is presented here as `Date Range Filter`.
 
 ## Repository structure
 
